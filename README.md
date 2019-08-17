@@ -3,7 +3,7 @@
 it's an script which watches your webcam source as a CCTV and write logs of motion inside the room in a text file 
 
 # Changing Video Source
-** [1] WebCam **
+**[1] WebCam**
 
 for using your secondary webcam 
 change this part of code : 
@@ -14,7 +14,7 @@ EXAMPLE : my secondary webcam (second one in this example ) is available
 I would change `cap = cv2.VideoCapture(0) `
 to `cap = cv2.VideoCapture(1) `
 
-** [2] OfflineSource **
+**[2] OfflineSource**
 
 for parsing offline data you can change above example source 
 use video name(wich is in the same directory of script) instead of webcam source
