@@ -8,6 +8,7 @@ it's an script which watches your webcam source as a CCTV and write logs of moti
 for using your secondary webcam 
 change this part of code : 
 `cap = cv2.VideoCapture(0) `
+
 note : 0 is your main web cam then other ones is 1 , 2, 3 and ..
 
 EXAMPLE : my secondary webcam (second one in this example ) is available 
