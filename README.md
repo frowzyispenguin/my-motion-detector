@@ -18,6 +18,7 @@ to `cap = cv2.VideoCapture(1) `
 **[2] OfflineSource**
 
 for parsing offline data you can change above example source 
+
 use video name(wich is in the same directory of script) instead of webcam source
 
 EXAMPLE : my video name is "video.mp4"
