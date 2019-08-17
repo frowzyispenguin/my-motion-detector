@@ -12,6 +12,7 @@ change this part of code :
 note : 0 is your main web cam then other ones is 1 , 2, 3 and ..
 
 EXAMPLE : my secondary webcam (second one in this example ) is available 
+
 I would change `cap = cv2.VideoCapture(0) `
 to `cap = cv2.VideoCapture(1) `
 
