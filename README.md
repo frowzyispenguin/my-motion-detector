@@ -23,6 +23,7 @@ for parsing offline data you can change above example source
 use video name(wich is in the same directory of script) instead of webcam source
 
 EXAMPLE : my video name is "video.mp4"
+
 I would change `cap = cv2.VideoCapture(0) `
 to `cap = cv2.VideoCapture("video.mp4") `
 
